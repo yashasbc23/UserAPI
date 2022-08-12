@@ -1,0 +1,91 @@
+2022-08-09 09:42:03.502  INFO 40916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 09:42:03.508  INFO 40916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 09:42:03.620  INFO 40916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 09:42:03.776  INFO 40916 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 09:42:03.824  INFO 40916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 09:42:03.991  INFO 40916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 09:42:15.622  INFO 40916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 09:42:15.788  INFO 40916 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 09:42:15.795  INFO 40916 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 09:42:15.798  INFO 40916 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 09:42:15.896  INFO 40916 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 118ms
+2022-08-09 09:51:59.749  INFO 40916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 09:51:59.756  INFO 40916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 09:52:52.783  INFO 14472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 09:52:52.786  INFO 14472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 09:52:52.917  INFO 14472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 09:52:53.099  INFO 14472 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 09:52:53.163  INFO 14472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 09:52:53.328  INFO 14472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 09:53:45.552  INFO 14472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 09:53:45.757  INFO 14472 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 09:53:45.764  INFO 14472 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 09:53:45.770  INFO 14472 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 09:53:45.874  INFO 14472 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 129ms
+2022-08-09 10:19:12.477  INFO 14472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:19:12.483  INFO 14472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 10:27:30.413  INFO 17284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 10:27:30.417  INFO 17284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 10:27:30.569  INFO 17284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 10:27:30.730  INFO 17284 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 10:27:30.786  INFO 17284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 10:27:30.981  INFO 17284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 10:27:36.198  INFO 17284 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 10:27:36.467  INFO 17284 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 10:27:36.474  INFO 17284 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","middleInitial":"k","phoneNumber":"1234567890","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 10:27:36.482  INFO 17284 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 10:27:36.610  INFO 17284 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 166ms
+2022-08-09 10:28:37.120  INFO 17284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:28:37.124  INFO 17284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 10:30:02.328  INFO 44016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 10:30:02.331  INFO 44016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 10:30:02.433  INFO 44016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 10:30:02.529  INFO 44016 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 10:30:02.573  INFO 44016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 10:30:02.665  INFO 44016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 10:31:01.294  INFO 44016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 10:31:01.492  INFO 44016 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 10:31:01.496  INFO 44016 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 10:31:01.501  INFO 44016 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 10:31:01.586  INFO 44016 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 103ms
+2022-08-09 10:34:11.320  INFO 44016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:34:11.334  INFO 44016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 10:34:24.604  INFO 12276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 10:34:24.607  INFO 12276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 10:34:24.756  INFO 12276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 10:34:24.956  INFO 12276 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 10:34:25.015  INFO 12276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 10:34:25.187  INFO 12276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 10:35:22.320  INFO 12276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 10:35:22.506  INFO 12276 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 10:35:22.512  INFO 12276 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 10:35:22.517  INFO 12276 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 10:35:22.622  INFO 12276 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 126ms
+2022-08-09 10:38:52.427  INFO 12276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:38:52.431  INFO 12276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 10:43:47.032  INFO 46600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 10:43:47.035  INFO 46600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 10:43:47.134  INFO 46600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 10:43:47.279  INFO 46600 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 10:43:47.329  INFO 46600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 10:43:47.464  INFO 46600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 10:43:54.205  INFO 46600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 10:43:54.377  INFO 46600 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 10:43:54.382  INFO 46600 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 10:43:54.387  INFO 46600 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 10:43:54.473  INFO 46600 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 104ms
+2022-08-09 10:48:49.361  INFO 46600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:48:49.365  INFO 46600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-09 10:49:20.782  INFO 32388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-09 10:49:20.784  INFO 32388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-09 10:49:20.896  INFO 32388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-09 10:49:20.994  INFO 32388 --- [restartedMain] n.r.s.b.l.access.LogbackAccessContext    : Configured the Logback-access: context=[default], config=[classpath:net/rakugakibox/spring/boot/logback/access/logback-access-spring.xml]
+2022-08-09 10:49:21.043  INFO 32388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 10:49:21.202  INFO 32388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 10:49:26.203  INFO 32388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 10:49:26.366  INFO 32388 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Add user/users to the system:
+2022-08-09 10:49:26.372  INFO 32388 --- [http-nio-8080-exec-1] c.e.U.contollers.UserController          : Requested user to add:{"firstName":"Renee","lastName":"roam","phoneNumber":"1234567890","middleInitial":"k","shippingAddress":"","billingAddress":"11 Main St Phoenix","email":"renne@gmail.com"}
+2022-08-09 10:49:26.377  INFO 32388 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.service.UserServiceImpl  : Saving user information to DB:
+2022-08-09 10:49:26.479  INFO 32388 --- [http-nio-8080-exec-1] c.e.UserAPIDemo.UserAPIExecutionTime     : Class Name: com.example.UserAPIDemo.contollers.UserController. Method Name: addUser. Time taken for Execution is : 122ms
+2022-08-09 10:57:50.115  INFO 32388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 10:57:50.120  INFO 32388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
